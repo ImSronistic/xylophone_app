@@ -10,12 +10,13 @@ class XylophoneApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-            child: Text(
-          nouns.last,
-          style: TextStyle(
-            fontSize: 40,
+          child: Text(
+            adjectives.first,
+            style: TextStyle(
+              fontSize: 40,
+            ),
           ),
-        )),
+        ),
       ),
     );
   }
