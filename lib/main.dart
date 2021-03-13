@@ -11,12 +11,7 @@ class XylophoneApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text(
-            adjectives.first,
-            style: TextStyle(
-              fontSize: 40,
-            ),
-          ),
+          child: Center(child: TextButton(onPressed:null)
         ),
       ),
     );
