@@ -11,7 +11,12 @@ class XylophoneApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Center(child: TextButton(onPressed:null)
+          child: Center(child: TextButton
+          (onPressed:(){
+              final player = AudioCache();
+              player.play('note1.wav');
+          }, 
+          child: Text('Click Here!')),
         ),
       ),
     );
